@@ -17,6 +17,5 @@ urlpatterns = patterns('',
     url(r'^search-form/$', views.search_form),
     url(r'^search/$',views.search),
     url(r'^time/', views.current_datetime),
-    url(r'^contact/', views.contact),
     url(r'^admin/', include(admin.site.urls)),
 )
